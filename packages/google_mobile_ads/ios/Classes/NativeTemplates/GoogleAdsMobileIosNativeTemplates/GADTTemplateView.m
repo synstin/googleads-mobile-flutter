@@ -112,7 +112,7 @@ static NSString *const GADTBlue = @"#5C84F0";
 // overwriting the defaults.
 - (void)applyStyles {
   self.layer.borderColor =
-      [GADTTemplateView colorFromHexString:@"E0E0E0"].CGColor;
+      [GADTTemplateView colorFromHexString:@"FFFFFFFF"].CGColor;
   self.layer.borderWidth = 1.0f;
   [self.mediaView sizeToFit];
   if ([self styleForKey:GADTNativeTemplateStyleKeyCornerRadius]) {
